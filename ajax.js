@@ -43,3 +43,16 @@ function popbtnClickHandler(){
     xhr.send();
     console.log("We are done fetching person details!");
 }
+
+// function to add custom blog heading
+function btnheading() {
+    var txt = document.getElementById("custom-blog-heading").value;
+    document.getElementById("place-blog-heading").innerHTML = txt;
+}
+
+// function to add custom blog content
+function btncontent() {
+    var txt = document.getElementById("custom-blog-content").value;
+    document.getElementById("place-blog-content").innerHTML = txt;
+}
+
