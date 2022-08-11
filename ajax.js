@@ -24,11 +24,11 @@ function popbtnClickHandler(){
             for (key in obj)
             {
                 str += `<li>
-                Name: ${obj[key].name} 
-                Username: ${obj[key].username}
-                email: ${obj[key].email}
-    
-                
+                Name: ${obj[key].name} |         
+                Username: ${obj[key].username} |
+                email: ${obj[key].email} |
+                phone: ${obj[key].phone} |
+                website: ${obj[key].website} |
                 </li>`;
             }
             list.innerHTML = str;
